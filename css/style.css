@@ -1,33 +1,31 @@
 /* Este es el código para el header transparente navegable */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-.nav-header{
-    width: 100%;
-    background-color: rgba(0,0,0,.2);
-}
-.nav-header ul{
-    text-align: center;
-}
-.nav-header ul li{
-    list-style: none;
-    display: inline-block;
-}
 
-.nav-header ul li a{
-display: block;
-text-decoration: none;
+.logo {
+    width: 100px;
+}
+.navbar{
+    background-color: #442a0c;
+}
+.menuNav a {
 text-transform: uppercase;
-color: #ffffff;
-font-size: 20px;
 font-family: 'Inter', sans-serif;
-letter-spacing: 2px;
-font-weight: 600;
-padding: 25px;
-transition: all ease 0,5s;
+font-weight: 800;
+font-size: 1rem;
+color: #eac696;
 }
+.menuNav a linkActual {
+    color: #65451f;
 
-
-.nav-header ul li a:hover{
-    background-color: #211b4385;
+}
+.menuNav a:hover{
+    color: #835e32;
+}
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28234, 198, 150, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler{
+    border: 1px solid rgb(234, 198, 150)
 }
 /* CSS para el estilo de los herobanners, tanto de artículos como de la homepage */
 .hero-image{
