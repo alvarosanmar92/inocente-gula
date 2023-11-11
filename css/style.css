@@ -30,18 +30,38 @@ color: #eac696;
 
 /* CSS para el estilo de los herobanners, tanto de artículos como de la homepage */
 .hero-image{
-    background-color: #442a0c;
-    padding-left: 20%;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    background: url(../assets/Tarta\ de\ queso\ cremosa.webp) no-repeat center;
+    background-size: cover;
 }
-.hero-text{
-    font-family: 'Inter', sans-serif;
-    text-align: center;
-    font-size: 30px;
+.containerHerobanner{
     position: absolute;
     top: 50%;
-    left: 40%;
-    transform: translate (-50%, -50%);
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
     color: #fff;
+    font-weight: 1000;
+    text-transform: uppercase;
+    font-family: 'Inter',sans-serif;
+
+}
+.containerHerobanner h3{
+    font-size: 50px;
+    letter-spacing: 0.4rem;
+}
+.linkHerobanner{
+    color: #38342e;
+    padding: 10px 24px;
+    text-decoration: none;
+    background: #f1f1f1;
+    border-radius: 8px;
+    transition: 0.3s all;
+}
+.linkHerobanner:hover{
+    opacity: 0.5;
 }
 /* Css para los h2 del site */
 h2{
