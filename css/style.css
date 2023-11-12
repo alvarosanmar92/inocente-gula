@@ -43,7 +43,7 @@ color: #eac696;
     transform: translate(-50%,-50%);
     text-align: center;
     color: #fff;
-    font-weight: 1000;
+    font-weight: 900;
     text-transform: uppercase;
     font-family: 'Inter',sans-serif;
 
@@ -64,13 +64,36 @@ color: #eac696;
     opacity: 0.5;
 }
 /* Css para los h2 del site */
-h2{
+.lastRecipes h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-family: 'Inter',sans-serif;
     font-size: 30px;
+    font-weight: 500;
     text-align: center;
     color: #eac696;
+    text-transform: uppercase;
 }
 
+.lastRecipes p{
+    font-family: 'Inter',sans-serif;
+    color: #eac696;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.botonLeer {
+    background-color: #65451f;
+    color: #fafafa;
+   text-transform: uppercase;
+   align-items: center;
+   justify-content: center;
+}
+.titleCard{
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+}
 /* CSS para el background del site */
 main{
     font-family: 'Inter', sans-serif;
@@ -81,60 +104,32 @@ main{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-/* CSS para el container de las cards */
-.site-container{
-    margin: 2rem auto;
-    max-width: calc(100%-80px);
-}
-.article-container{
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
-    gap: 2rem;
-}
-.article-image{
-    margin:0;
-    padding: 0;
-    overflow: hidden;
-}
-.article-image img{
-    max-width: 100%;
-    height: auto;
-    border-radius: 20px 20px 0 0;
-}
-.article-card {
-    background: #65451f;
-    border-radius: 20px;
-    transition: 0,3s;
-}
-.article-card:hover{
-    box-shadow: 0 4px 20px 0 rgba(34,68,123,0,2);
-    cursor: pointer;
-}
-.artcile-content{
-    padding: 2rem;
-}
-.article-content .card-category{
-    font-size: 0,875rem;
-    text-transform:uppercase;
-    letter-spacing: 0,1rem;
-    font-weight: 600;
-    color:#eac696;
-    display: block;
-    text-decoration: none;
-}
-.article-content .card-title{
-    margin: 1rem 0;
-    color: #eac696;
+/* CSS para las cards */
+.containerCards{
+    margin-left: 50px;
 }
 
-.p-homepage{
+.topRecipes h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-family: 'Inter',sans-serif;
-    color: #aaaaaa;
-    font-size: 20px;
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    color: #eac696;
+    text-transform: uppercase;
+}
+.topRecipes p{
+    font-family: 'Inter',sans-serif;
+    color: #eac696;
+    font-size: 25px;
+    font-weight: 400;
     text-align: center;
 }
-
+.card-img-top{
+    height: 15vw;
+    object-fit: cover;
+}
 /* CSS para el footer del site */
 .copyrightFooter{
     font-family: 'Inter', sans-serif;

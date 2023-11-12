@@ -1,45 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inocente Gula</title>
     <link rel="stylesheet" href="/Fonts/Inter-VariableFont_slnt,wght.ttf">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <header>
+
+<body class="container-fluid">
+    <header class="sticky-top">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand">
-                <img class="logo" src="assets/Logo Inocente Gula.png" alt="Logo Inocente Gula">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto menuNav">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="pages/ultima-receta.html">Última receta</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="pages/recetario.html">Recetario</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="pages/quien-soy.html">¿Quién soy?</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="pages/contacto.html">¿Tienes dudas?</a>
-                  </li>
-                </ul>
-              </div>
+                <a class="navbar-brand">
+                    <img class="logo" src="assets/Logo Inocente Gula.png" alt="Logo Inocente Gula">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto menuNav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/ultima-receta.html">Última receta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/recetario.html">Recetario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/quien-soy.html">¿Quién soy?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contacto.html">¿Tienes dudas?</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-          </nav>
+        </nav>
     </header>
     <main>
         <div class="hero-image">
@@ -48,91 +54,95 @@
                 <a class="linkHerobanner" href="pages/ultima-receta.html"> Leer</a>
             </div>
         </div>
-        <h2>
-            Últimos posts
-        </h2>
+        <div>
+            <div class="lastRecipes">
+                <h2>
+                    Últimas recetas
+                </h2>
+                <p>Aquí encontrarás las últimas recetas publicadas en el blog</p>
+            </div>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                  <div class="card text-center">
+                    <img src="assets/Guacamole rápido.jpeg" class="card-img-top" alt="Imagen del guacamole rápido">
+                    <div class="card-body">
+                      <h3 class="card-title titleCard">Guacamole facil y rápido</h3>
+                      <a href="#" class="btn botonLeer">Leer</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card text-center">
+                    <img src="assets/Guiso de setas otoñal.jpg" class="card-img-top" alt="Imagen del guiso de setas otoñal">
+                    <div class="card-body">
+                      <h3 class="card-title titleCard">Guiso de setas otoñal</h3>
+                      <a href="#" class="btn botonLeer">Leer</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card text-center">
+                      <img src="assets/Arroz de presa y foie.jpg" class="card-img-top" alt="Foto de Arroz de presa y foie">
+                      <div class="card-body">
+                        <h3 class="card-title titleCard">Arroz de presa y foie</h3>
+                        <a href="#" class="btn botonLeer">Leer</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
         </div>
-    <div class="site-container">
-        <div class="article-container">
-        <article class="article-card">
-            <figure class="article-image">
-                <img src="assets/Sr.Ito Card.png" alt="Imagen de un plato del restaurante Sr Ito ">
-            </figure>
-            <div class="article-content">
-                <a href="#" class="card-category">Leer</a>
-                <h3 class="card-title"> Sr.Ito</h3>
-            </div>
-        </article>
-        <article class="article-card">
-            <figure class="article-image">
-                <img src="/assets/Gofio Card.png" alt="Imagen de los platos del restaurante Gofio">
-            </figure>
-            <div class="article-content">
-                <a href="#" class="card-category">Leer</a>
-                <h3 class="card-title"> Gofio</h3>
-            </div>
-        </article>
-        <article class="article-card">
-            <figure class="article-image">
-                <img src="/assets/Tarta de queso card.png" alt="Imagen de la tarta de queso cremosa clásica">
-            </figure>
-            <div class="article-content">
-                <a href="#" class="card-category">Leer</a>
-                <h3 class="card-title">Tarta de queso cremosa</h3>
-            </div>
-        </article>
-    </div>
-    <br>
-    <div><h2>Posts Más Leídos</h2></div>
-    <p class="p-homepage">Por aquí encontrarás los post más leidos por los inocentes con más gula. Date una vuelta y revísalos, seguro que no te dejan indiferente</p>
-    <div class="site-container">
-        <div class="article-container">
-        <article class="article-card">
-            <figure class="article-image">
-                <img src="/assets/Lince Card.png" alt="Imagen de uno de los platos icónicos del restaurante Lince">
-            </figure>
-            <div class="article-content">
-                <a href="#" class="card-category">Leer</a>
-                <h3 class="card-title"> Lince</h3>
-            </div>
-        </article>
-        <article class="article-card">
-            <figure class="article-image">
-                <img src="/assets/Ancestral Card.png" alt="Imagen del menú y uno de losp latos del restaurante Ancestral">
-            </figure>
-            <div class="article-content">
-                <a href="#" class="card-category">Leer</a>
-                <h3 class="card-title"> Ancestral</h3>
-            </div>
-        </article>
-        <article class="article-card">
-            <figure class="article-image">
-                <img src="/assets/EstaRico Card.png" alt="Imagen de  una de las hamburguesas más vendidas de EstaRico Burger">
-            </figure>
-            <div class="article-content">
-                <a href="#" class="card-category">Leer</a>
-                <h3 class="card-title">EstáRico Burger</h3>
-            </div>
-
-
+        <div>
+        <div class="topRecipes">
+            <h2>Posts Más Leídos</h2>
+        <p>Por aquí encontrarás los post más leidos por los inocentes con más gula. Date una vuelta y
+            revísalos, seguro que no te dejan indiferente</p>
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-4">
+                  <div class="card text-center">
+                    <img src="assets/Tarta de queso cremosa.jpg" class="card-img-top" alt="Imagen Tarta ed queso cremosa">
+                    <div class="card-body">
+                      <h3 class="card-title titleCard">Tarta de queso cremosa</h3>
+                      <a href="#" class="btn botonLeer">Leer</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                  <div class="card text-center">
+                    <img src="assets/Guiso de setas otoñal.jpg" class="card-img-top" alt="Imagen del guiso de setas otoñal">
+                    <div class="card-body">
+                      <h3 class="card-title titleCard">Guiso de setas otoñal</h3>
+                      <a href="#" class="btn botonLeer">Leer</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col mb-4">
+                    <div class="card text-center">
+                      <img src="assets/Arroz negro con alioli de lima.jpg" class="card-img-top" alt=" Imagen Arroz negro con alioli">
+                      <div class="card-body">
+                        <h3 class="card-title titleCard">Arroz negro y alioli</h3>
+                        <a href="#" class="btn botonLeer">Leer</a>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+        </div>
     </main>
-<footer class="text-center text-white">
-    <div class="container pt-4">
-      <section class="mb-4">
-        <a
-          class="btn btn-link btn-floating btn-lg text-dark m-1"
-          href="https://www.instagram.com/lasrecetasdeito/?hl=es"
-          role="button"
-          data-mdb-ripple-color="dark"
-          ><i class="fab fa-instagram"></i
-        ></a>
-      </section>
-    </div>
-    <div class="text-center text-dark p-3">
-      <p class="copyrightFooter">© 2020 Copyright: Álvaro Sánchez </p>
-    </div>
-</footer> 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <footer class="text-center text-white">
+        <div class="container pt-4">
+            <section class="mb-4">
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1"
+                    href="https://www.instagram.com/lasrecetasdeito/?hl=es" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+            </section>
+        </div>
+        <div class="text-center text-dark p-3">
+            <p class="copyrightFooter">© 2020 Copyright: Álvaro Sánchez </p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
