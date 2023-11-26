@@ -1,12 +1,11 @@
 /* CSS para el estilo de los herobanners, tanto de artículos como de la homepage */
-
-.hero-image {
-    position: relative;
-    height: 500px;
-    overflow: hidden;
-    background: url(../assets/Tarta\ de\ queso\ cremosa.webp) no-repeat center;
-    background-size: cover;
-  }
+.hero-image-inicio{
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  background: url(../assets/Tarta\ de\ queso\ cremosa.jpg) no-repeat center;
+  background-size: cover;
+}
   
   .containerHerobanner {
     position: absolute;

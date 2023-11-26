@@ -169,11 +169,11 @@ input[type=submit] {
 }
 
 /* CSS para el estilo de los herobanners, tanto de artículos como de la homepage */
-.hero-image {
+.hero-image-inicio {
   position: relative;
   height: 500px;
   overflow: hidden;
-  background: url(../assets/Tarta\ de\ queso\ cremosa.webp) no-repeat center;
+  background: url(../assets/Tarta\ de\ queso\ cremosa.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -274,6 +274,29 @@ main {
     height: 50vW;
     object-fit: cover;
   }
+}
+.hero-image-receta2 {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  background: url(../assets/Arroz\ negro\ con\ alioli\ de\ lima.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.hero-image-receta1 {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  background: url(../assets/Ensalada\ de\ aguacate\ y\ pulpo\ con\ espuma\ de\ pimenton.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.hero-image-receta3 {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  background: url(../assets/Guiso\ de\ setas\ otoñal.jpg) no-repeat center;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=styles.css.map */
