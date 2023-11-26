@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap);
 .copyrightFooter {
   font-family: "Inter", sans-serif;
@@ -263,28 +262,6 @@ main {
 .titleCard {
   font-family: "Inter", sans-serif;
   font-weight: 600;
-}
-
-/* CSS para las cards */
-.containerCards {
-  margin-left: 50px;
-}
-
-.topRecipes h3 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  font: calc(16px + 0.390625vw);
-  font-weight: 500;
-  text-align: center;
-  color: #eac696;
-  text-transform: uppercase;
-}
-.topRecipes p {
-  font-family: "Inter", sans-serif;
-  color: #eac696;
-  font-size: calc(14px + 0.39vw);
-  font-weight: 400;
-  text-align: center;
 }
 
 .card-img-top {

@@ -1,0 +1,22 @@
+.botonLeer {
+    background-color: #65451f;
+    color: #fafafa;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .titleCard {
+    font-family: 'Inter',sans-serif;
+    font-weight: 600;
+  }
+.card-img-top {
+    height: 15vw;
+    object-fit: cover;
+  }
+  @media (max-width: 900px) {
+    .card-img-top{
+      height: 50vW;
+      object-fit: cover;
+    }
+  }
