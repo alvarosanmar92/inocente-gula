@@ -1,0 +1,148 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "variables";
+@import "footer";
+@import "fonts";
+@import "header";
+@import "estiloArticulos";
+@import "formulario";
+@import "recetario";
+@import "herobanner";
+
+/* Css para los h2 del site */
+
+.lastRecipes {
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font: $title-h3-font;
+    font-weight: 500;
+    text-align: center;
+    color: #eac696;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-family: 'Inter',sans-serif;
+    color: #eac696;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+
+.botonLeer {
+  background-color: #65451f;
+  color: #fafafa;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleCard {
+  font-family: 'Inter',sans-serif;
+  font-weight: 600;
+}
+
+/* CSS para el background del site */
+
+main {
+  font-family: 'Inter', sans-serif;
+  font-size: 100%;
+  font-size: 16px;
+  line-height: 1,5;
+  background: #442a0c;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* CSS para las cards */
+
+.containerCards {
+  margin-left: 50px;
+}
+
+.topRecipes {
+  h3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font: $title-h3-font;
+    font-weight: 500;
+    text-align: center;
+    color: #eac696;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-family: 'Inter',sans-serif;
+    color: #eac696;
+    font-size: calc(14px + 0.39vw);
+    font-weight: 400;
+    text-align: center;
+  }
+}
+
+.card-img-top {
+  height: 15vw;
+  object-fit: cover;
+}
+
+
+/* CSS para el estilo del buscador del site */
+
+.searchbox {
+  width: 100%;
+  height: 10vh;
+  background: #442a0c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchform {
+  background: #fff;
+  width: 600px;
+  height: 55px;
+  display: flex;
+
+  input {
+    flex: 1;
+    border: none;
+    outline: none;
+    font-family: 'Inter', sans-serif;
+  }
+
+  button {
+    background: #eac696;
+    padding: 10px 50px;
+    border: none;
+    outline: none;
+    font-family: 'Inter', bold;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+}
+
+/* CSS para el estilo de los artículos */
+
+.parrafoArticulo {
+  font-family: 'Inter', sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 18px;
+  color: #eac696;
+  margin-bottom: auto;
+}
+
+.imagenArticulo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  width: 1200;
+  height: 800;
+}

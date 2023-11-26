@@ -1,0 +1,327 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url(https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap);
+.copyrightFooter {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.footer {
+  height: 1.5rem;
+}
+
+.logo {
+  width: 60px;
+}
+
+.navbar {
+  background-color: #442a0c;
+}
+
+.menuNav a {
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  color: #eac696;
+}
+.menuNav nav-link active {
+  color: #65451f;
+}
+.menuNav a:hover {
+  color: #835e32;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28234, 198, 150, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-toggler {
+  border: 1px solid rgb(234, 198, 150);
+}
+
+.containerArticulo {
+  width: 100%;
+}
+
+.parrafoArticulo {
+  font-family: "Inter", sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 70%;
+  font-size: calc(15px + 0.390625vw);
+  color: #eac696;
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+
+/*CSS para el formulario de contacto*/
+/*Style for the h2 on the contact Page*/
+.contactPage {
+  margin-bottom: 20px;
+  font: calc(60px + 0.390625vw) "Inter", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: #eac696;
+  text-transform: uppercase;
+}
+.contactPage p {
+  width: 80%;
+  margin: auto;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  text-align: center;
+  text-justify: distribute;
+  color: #eac696;
+}
+
+/* Style para inputs, buttons and textareas */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style for the label to put it next to the text area */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #835e32;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.containerContact {
+  border-radius: 8px;
+  background-color: #eac696;
+  padding: 20px;
+  padding-bottom: 10px;
+  width: 80%;
+  margin: auto;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+.recetarioCards h3 {
+  margin-bottom: 20px;
+  font: calc(18px + 0.390625vw);
+  font-weight: 500;
+  text-align: center;
+  color: #eac696;
+  text-transform: uppercase;
+}
+.recetarioCards p {
+  font-family: "Inter", sans-serif;
+  color: #eac696;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.titleCard h3 {
+  background-color: black;
+}
+
+/* CSS para el estilo de los herobanners, tanto de artículos como de la homepage */
+.hero-image {
+  position: relative;
+  height: 500px;
+  overflow: hidden;
+  background: url(../assets/Tarta\ de\ queso\ cremosa.webp) no-repeat center;
+  background-size: cover;
+}
+
+.containerHerobanner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: "Inter", sans-serif;
+}
+.containerHerobanner h2 {
+  font: calc(60px + 0.390625vw) "Inter", sans-serif;
+  letter-spacing: 0.4rem;
+}
+
+.linkHerobanner {
+  color: #38342e;
+  padding: 10px 24px;
+  text-decoration: none;
+  background: #f1f1f1;
+  border-radius: 8px;
+  transition: 0.3s all;
+}
+.linkHerobanner:hover {
+  opacity: 0.5;
+}
+
+/* Css para los h2 del site */
+.lastRecipes h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font: calc(18px + 0.390625vw);
+  font-weight: 500;
+  text-align: center;
+  color: #eac696;
+  text-transform: uppercase;
+}
+.lastRecipes p {
+  font-family: "Inter", sans-serif;
+  color: #eac696;
+  font-size: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.botonLeer {
+  background-color: #65451f;
+  color: #fafafa;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleCard {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+/* CSS para el background del site */
+main {
+  font-family: "Inter", sans-serif;
+  font-size: 100%;
+  font-size: 16px;
+  line-height: 1, 5;
+  background: #442a0c;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* CSS para las cards */
+.containerCards {
+  margin-left: 50px;
+}
+
+.topRecipes h3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font: calc(18px + 0.390625vw);
+  font-weight: 500;
+  text-align: center;
+  color: #eac696;
+  text-transform: uppercase;
+}
+.topRecipes p {
+  font-family: "Inter", sans-serif;
+  color: #eac696;
+  font-size: calc(14px + 0.39vw);
+  font-weight: 400;
+  text-align: center;
+}
+
+.card-img-top {
+  height: 15vw;
+  object-fit: cover;
+}
+
+/* CSS para el estilo del buscador del site */
+.searchbox {
+  width: 100%;
+  height: 10vh;
+  background: #442a0c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.searchform {
+  background: #fff;
+  width: 600px;
+  height: 55px;
+  display: flex;
+}
+.searchform input {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-family: "Inter", sans-serif;
+}
+.searchform button {
+  background: #eac696;
+  padding: 10px 50px;
+  border: none;
+  outline: none;
+  font-family: "Inter", bold;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+/* CSS para el estilo de los artículos */
+.parrafoArticulo {
+  font-family: "Inter", sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: 18px;
+  color: #eac696;
+  margin-bottom: auto;
+}
+
+.imagenArticulo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: auto;
+  width: 1200;
+  height: 800;
+}
+
+/*# sourceMappingURL=styles.css.map */

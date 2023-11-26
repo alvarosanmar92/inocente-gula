@@ -1,0 +1,40 @@
+/* CSS para el estilo de los herobanners, tanto de artículos como de la homepage */
+
+.hero-image {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    background: url(../assets/Tarta\ de\ queso\ cremosa.webp) no-repeat center;
+    background-size: cover;
+  }
+  
+  .containerHerobanner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Inter',sans-serif;
+  
+    h2 {
+      font: $title-h2-font;
+      letter-spacing: 0.4rem;
+    }
+  }
+  
+  .linkHerobanner {
+    color: #38342e;
+    padding: 10px 24px;
+    text-decoration: none;
+    background: #f1f1f1;
+    border-radius: 8px;
+    transition: 0.3s all;
+  
+    &:hover {
+      opacity: 0.5;
+    }
+  }
+  
