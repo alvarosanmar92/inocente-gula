@@ -10,6 +10,7 @@
 @import "herobanner";
 @import "titles";
 @import "estiloPresentacion";
+@import "main";
 
 .botonLeer {
   background-color: #65451f;
@@ -23,19 +24,6 @@
   font-family: 'Inter',sans-serif;
   font-weight: 600;
 }
-
-/* CSS para el background del site */
-
-main {
-  font-family: 'Inter', sans-serif;
-  font-size: 100%;
-  font-size: 16px;
-  line-height: 1,5;
-  background: #442a0c;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 /* CSS para las cards */
 
 .containerCards {
@@ -66,41 +54,10 @@ main {
   height: 15vw;
   object-fit: cover;
 }
-
-
-/* CSS para el estilo del buscador del site */
-
-.searchbox {
-  width: 100%;
-  height: 10vh;
-  background: #442a0c;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.searchform {
-  background: #fff;
-  width: 600px;
-  height: 55px;
-  display: flex;
-
-  input {
-    flex: 1;
-    border: none;
-    outline: none;
-    font-family: 'Inter', sans-serif;
-  }
-
-  button {
-    background: #eac696;
-    padding: 10px 50px;
-    border: none;
-    outline: none;
-    font-family: 'Inter', bold;
-    color: #fff;
-    letter-spacing: 1px;
-    cursor: pointer;
+@media (max-width: 900px) {
+  .card-img-top{
+    height: 50vW;
+    object-fit: cover;
   }
 }
 
