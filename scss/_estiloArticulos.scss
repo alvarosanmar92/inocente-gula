@@ -1,14 +1,22 @@
 .containerArticulo{
     width: 100%;
-    margin: auto;
 }
 .parrafoArticulo {
     font-family: 'Inter', sans-serif;
     text-align: justify;
     text-justify: inter-word;
-    font-size: calc(15px + 0.390625vw);
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: 18px;
     color: #eac696;
-    margin-bottom: 50px;
-    margin-top: 20px;
+    margin-bottom: auto;
   }
 
+  @media (max-width: 900px) {
+    .parrafoArticulo {
+        width: 90%;
+        margin-left: 20px;
+        margin-right: 50px;
+    }
+  }
