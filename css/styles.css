@@ -12,7 +12,7 @@
 }
 
 .logo {
-  width: 60px;
+  width: 80px;
 }
 
 .navbar {
@@ -43,15 +43,13 @@
 
 .containerArticulo {
   width: 100%;
+  margin: auto;
 }
 
 .parrafoArticulo {
   font-family: "Inter", sans-serif;
   text-align: justify;
   text-justify: inter-word;
-  margin-left: 50px;
-  margin-right: 50px;
-  width: 70%;
   font-size: calc(15px + 0.390625vw);
   color: #eac696;
   margin-bottom: 50px;
@@ -200,9 +198,7 @@ input[type=submit] {
   opacity: 0.5;
 }
 
-/* Css para los h2 del site */
-.lastRecipes h3 {
-  margin-top: 20px;
+.h3Secciones h3 {
   margin-bottom: 20px;
   font: calc(18px + 0.390625vw);
   font-weight: 500;
@@ -210,12 +206,31 @@ input[type=submit] {
   color: #eac696;
   text-transform: uppercase;
 }
-.lastRecipes p {
-  font-family: "Inter", sans-serif;
+.h3Secciones p {
   color: #eac696;
-  font-size: 25px;
+  font: calc(14px + 0.390625vw) "Inter", sans-serif;
   font-weight: 400;
   text-align: center;
+}
+
+.containerPresentacion {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagenPresentacion {
+  max-width: 25%;
+  max-height: 15%;
+  float: left;
+}
+
+.parrafoPresentacion {
+  padding-left: 20px;
+  padding-top: auto;
+  float: left;
+  font: calc(14px + 0.390625vw) "Inter", sans-serif;
+  color: #eac696;
 }
 
 .botonLeer {

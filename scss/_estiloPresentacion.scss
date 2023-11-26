@@ -1,0 +1,22 @@
+.containerPresentacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imagenPresentacion{
+max-width: 25%;
+max-height: 15%;
+float: left;
+}
+
+@mixin parrafoPresentacion{
+padding-left: 20px;
+padding-top:auto;
+float:left;
+}
+
+.parrafoPresentacion{
+    @include parrafoPresentacion;
+    font:$parrafo-h3-font;
+    color: #eac696;
+}
