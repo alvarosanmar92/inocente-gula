@@ -240,6 +240,19 @@ input[type=submit] {
   color: #eac696;
 }
 
+@media (max-width: 400px) {
+  .containerPresentacion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-content: space-between;
+  }
+  .imagenPresentacion {
+    max-width: 100%;
+    max-height: 80%;
+  }
+}
 /* CSS para el background del site */
 main {
   font-family: "Inter", sans-serif;
