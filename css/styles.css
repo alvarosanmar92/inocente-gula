@@ -220,6 +220,18 @@ input[type=submit] {
   text-align: center;
 }
 
+h1 {
+  font: calc(80px + 0.390625vw) "Inter", sans-serif;
+  color: #fafafa;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: calc(60px + 0.390625vw);
+  }
+}
 .containerPresentacion {
   display: flex;
   align-items: center;
@@ -240,7 +252,7 @@ input[type=submit] {
   color: #eac696;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 900px) {
   .containerPresentacion {
     display: flex;
     flex-direction: column;
@@ -253,6 +265,11 @@ input[type=submit] {
     max-height: 80%;
   }
 }
+.paddingParrafos {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
 /* CSS para el background del site */
 main {
   font-family: "Inter", sans-serif;

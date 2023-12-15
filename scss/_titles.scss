@@ -14,3 +14,14 @@
         text-align: center;
       }
 }
+h1 {
+  font: $title-h1-font;
+  color: #fafafa;
+  font-weight: bold;
+  text-align: center;
+}
+@media (max-width: 900px){
+  h1{
+    font-size:calc(60px + 0.390625vw);
+  }
+}
